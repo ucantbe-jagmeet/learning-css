@@ -1,0 +1,15 @@
+  /* h1 and h2 are the selectors */
+  /* {  } -> declaration block  */
+  /* color will be recognised as properties */
+  /* red will be recognised as value */
+
+
+  .red{
+    color: red;
+    background: black;
+  }
+
+  .green{
+    color: green;
+    background: yellow;
+  }
