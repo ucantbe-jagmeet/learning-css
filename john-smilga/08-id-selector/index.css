@@ -1,0 +1,14 @@
+  /* h1 and h2 are the selectors */
+  /* {  } -> declaration block  */
+  /* color will be recognised as properties */
+  /* red will be recognised as value */
+
+  #title{
+    color: green;
+    background-color: black;
+  }
+
+  #footer {
+    color: red;
+    background: grey;
+  }
