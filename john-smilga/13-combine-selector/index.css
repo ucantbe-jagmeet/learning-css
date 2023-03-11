@@ -1,0 +1,22 @@
+  /* h1 and h2 are the selectors */
+  /* {  } -> declaration block  */
+  /* color will be recognised as properties */
+  /* red will be recognised as value */
+
+  /* Last Rule and Specificity * Universal Selector */
+  /* last property of the same element will be displayed on the page*/
+  
+  /* 
+      Id has more priority over the class selector
+      class has more priority over element selector
+      universal selector has the least amount of specificity or priority
+  */
+
+  .container p {
+    color: green;
+  }
+  .container h2{
+    color: palevioletred;
+  }
+  /* This is called decendent selector 
+  */
