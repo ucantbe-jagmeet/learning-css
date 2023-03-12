@@ -1,0 +1,29 @@
+/* 
+VIEWPORT UNITS
+vh - height - percent of the screen, 
+vw - width - percent of the screen
+
+*/
+/*
+  Calc()
+  perform math operations + - * 
+  mix and match values
+  always give space between the subtract
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar{
+  background: blue;
+  height: 6rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner{
+  background: red;
+  height: calc(100vh - 6rem);  
+}
