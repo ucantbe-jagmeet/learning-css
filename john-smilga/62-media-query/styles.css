@@ -1,0 +1,50 @@
+/* 
+  media query
+  responsive Design
+  Style elements on different screen
+  min-width --- starting from 
+  max-width --- up to
+  mobile first
+*/
+
+
+body{
+  background: yellow;
+}
+
+.banner
+{
+  background: blue;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+  body{
+    background: red;
+  }
+
+  .banner{
+    background: yellow;
+  }
+  h1{
+    color: blue;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  body{
+    background: rgb(0, 255, 55);
+  }
+
+  .banner{
+    background: rgb(255, 0, 200);
+    margin-top: 60px;
+  }
+
+}
