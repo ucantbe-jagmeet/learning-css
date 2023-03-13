@@ -1,0 +1,27 @@
+/* 
+:root root element of the document, higher specificity
+html element
+general styles
+css variables
+*/
+div{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one
+{
+  background: red;
+  transform: translateX(40px);
+}
+
+.two{
+  background: blue;
+  transform: translateY(-40px) ;
+}
+
+.three{
+  background: green;
+  transform: translate( 200px, 300px);
+}
